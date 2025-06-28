@@ -1,18 +1,21 @@
 Package: sarsData
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Holds data objects for the 'sars' R package
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Tom", "Matthews",
+      email = "txm676@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Holds data objects for the 'sars' R package, 
+    primarily the raster file use in sar_build().
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/txm676/sarsData
 BugReports: https://github.com/txm676/sarsData/issues
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
